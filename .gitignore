@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+venv/
+.venv/
+venv*/
+*/venv/
+*/venv_*/
+.venv*/
+*/.venv/
+python/packages/autogen-studio/venv/
+python/packages/autogen-ext/venv/
+python/packages/autogen-core/venv/
+
+# Node/Gatsby
+node_modules/
+.cache/
+public/
+.env.*
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Autogen specific
+python/packages/autogen-studio/frontend/.cache/
+python/packages/autogen-studio/frontend/public/
+python/packages/autogen-studio/frontend/.env.*
+python/packages/autogen-studio/frontend/node_modules/
+
+# Build artifacts
+*.log
+*.pid
+*.seed
+*.pid.lock 
